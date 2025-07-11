@@ -1,19 +1,26 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f6f6f6;
-  text-align: center;
+  
 }
 
 h1 {
   margin-top: 20px;
   color: #333;
+  text-align: center;
 }
 
+.page-container{
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+}
 .product-container{
+  text-align: center;
   padding: 40px;
   display: grid;
   row-gap: 40px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  column-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .product {
@@ -42,4 +49,10 @@ button {
 
 button:hover {
   background-color: #146b3a;
+}
+
+
+.cart-side{
+  background-color:#1b8d56;
+  width: 100%;
 }
