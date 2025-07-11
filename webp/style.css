@@ -11,16 +11,17 @@ h1 {
 }
 
 .page-container{
+  
   display: grid;
-  grid-template-columns: 1fr 0.4fr;
+  grid-template-columns: 1fr 450px;
 }
 .product-container{
   text-align: center;
   padding: 40px;
   display: grid;
   row-gap: 40px;
-  column-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 12px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .product {
@@ -54,5 +55,11 @@ button:hover {
 
 .cart-side{
   background-color:#1b8d56;
-  width: 100%;
+  
+ 
+  padding: 40px;
+  display: grid;
+  row-gap: 40px;
+  column-gap: 12px;
+  
 }
